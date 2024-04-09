@@ -1,0 +1,24 @@
+.dream-description{
+    width: 60%;
+    height: 10vh;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    padding: 20px;
+}
+
+.dream-analysis{
+    width: 60%;
+    min-height: 10vh;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    background-color: #f5f7fa;
+    text-align: justify;
+    text-justify: inter-word; 
+    padding: 20px;
+}
+
+.submit-button{
+    width: 10%;
+    min-height: 40px;
+    border-radius: 10px;
+    background-color: #207bff;
+    color: #f5f7fa;
+}
