@@ -8,8 +8,7 @@ app.http('getAIResponse', {
     route: 'ai',
     handler: async (request, context) => {
         const openai = new OpenAI({
-            apiKey: process.env.REACT_APP_OPENAI_API_KEY,
-            dangerouslyAllowBrowser: true
+            apiKey: process.env.OPENAI_API_KEY
         });
 
         const body = await request.json();
